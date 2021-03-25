@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Checkout Source') {
+        stage('Checkout Source 1') {
             steps {
-                git 'https://gitlab.com/maifujalam/jenkin1.git'
+                git 'http://gsgit.gslab.com/skmaifujalam/jenkins.git'
             }
         }
 
