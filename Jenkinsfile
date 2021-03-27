@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checking') {
             steps {
-                shell "ls"
+                sh "ls"
             }
         }
     }
