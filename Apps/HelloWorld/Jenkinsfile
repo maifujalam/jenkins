@@ -6,6 +6,5 @@ pipeline {
                 git 'http://gsgit.gslab.com/skmaifujalam/jenkins.git'
             }
         }
-
     }
 }
