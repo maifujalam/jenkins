@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout Source 1') {
             steps {
-                git 'http://gsgit.gslab.com/skmaifujalam/jenkins.git'
+                git 'https://github.com/maifujalam/jenkins.git'
             }
         }
     }
